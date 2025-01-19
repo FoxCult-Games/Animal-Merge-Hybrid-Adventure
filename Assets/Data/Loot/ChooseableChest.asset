@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b899bc3cc4248ef8381ba23b8ecc8b6, type: 3}
+  m_Name: ChooseableChest
+  m_EditorClassIdentifier: 
+  serializedGuid: 11f5deabfaf5edf40b576f08757d8991
+  icon: {fileID: 21300000, guid: 4a00a3d82de952b47ba54244c5fa6ab7, type: 3}
+  resolver:
+    rid: 5964953486376304643
+  openedIcon: {fileID: 21300000, guid: 4a00a3d82de952b47ba54244c5fa6ab7, type: 3}
+  currencyType: 0
+  price: 100
+  canBeBought: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 5964953486376304643
+      type: {class: EntityLootResolver, ns: FoxCultGames.Gameplay.Loot.Resolvers, asm: Assembly-CSharp}
+      data:
+        entries: []

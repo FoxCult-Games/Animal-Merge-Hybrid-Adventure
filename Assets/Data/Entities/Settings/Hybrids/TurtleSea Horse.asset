@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b541a2a063f74ff98834dfde271438b1, type: 3}
+  m_Name: TurtleSea Horse
+  m_EditorClassIdentifier: 
+  serializedGuid: d7d81e41e7189af418122c46177741d5
+  entityName: TurtleSea Horse
+  entitySprite: {fileID: 21300000, guid: 9bd8d4dda0a0a9d4d9bb3d26713e1d27, type: 3}
+  entityType: 1
+  entityTier: 1
+  prefab: {fileID: 2490468364962264447, guid: 2c5a117709b9e714184b470ee9d731e6, type: 3}
+  requiredEntitySettings:
+  - {fileID: 11400000, guid: 6cda787b8651b45428cf3fe13a19d260, type: 2}
+  - {fileID: 11400000, guid: 79a17deaa0e6aef47afe352a9f12f26c, type: 2}
+  price:
+    currency: 0
+    amount: 0
+  sellPrice:
+    currency: 0
+    amount: 10
+  speciesSettings: {fileID: 0}
+  entityMovementSettings: {fileID: 11400000, guid: e0b6ffbc9770ec9479e14d19935f163b, type: 2}
+  subControllersSettings: []
+  references:
+    version: 2
+    RefIds: []

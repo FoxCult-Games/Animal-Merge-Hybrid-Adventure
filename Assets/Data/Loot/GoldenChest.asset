@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b899bc3cc4248ef8381ba23b8ecc8b6, type: 3}
+  m_Name: GoldenChest
+  m_EditorClassIdentifier: 
+  serializedGuid: ac7db45f2d5fb184eba7f00d6dc146ae
+  icon: {fileID: 21300000, guid: f90a73d98cd036b40bde23213dd7c38b, type: 3}
+  resolver:
+    rid: 5964953486376304645
+  openedIcon: {fileID: 21300000, guid: f90a73d98cd036b40bde23213dd7c38b, type: 3}
+  currencyType: 0
+  price: 40
+  canBeBought: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 5964953486376304645
+      type: {class: EntityLootResolver, ns: FoxCultGames.Gameplay.Loot.Resolvers, asm: Assembly-CSharp}
+      data:
+        entries:
+        - tier: 0
+          chance: 1
+        - tier: 1
+          chance: 0.8
+        - tier: 2
+          chance: 0.25
+        - tier: 3
+          chance: 0.1

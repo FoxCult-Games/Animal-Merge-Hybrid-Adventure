@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b541a2a063f74ff98834dfde271438b1, type: 3}
+  m_Name: SpiderCrab
+  m_EditorClassIdentifier: 
+  serializedGuid: ea81515e3977bdd49bd004f3cc54ea92
+  entityName: SpiderCrab
+  entitySprite: {fileID: 21300000, guid: 2a106efd12a3c4d49b14d42906bc1342, type: 3}
+  entityType: 1
+  entityTier: 1
+  prefab: {fileID: 8500231272460416719, guid: 54cee9a58ede40242a301479cc95917b, type: 3}
+  requiredEntitySettings:
+  - {fileID: 11400000, guid: 2135dc047920f6c48b3e0baf1606f552, type: 2}
+  - {fileID: 11400000, guid: 861b7a420832a1e44a268523171dc0a0, type: 2}
+  price:
+    currency: 0
+    amount: 0
+  sellPrice:
+    currency: 0
+    amount: 10
+  speciesSettings: {fileID: 0}
+  entityMovementSettings: {fileID: 11400000, guid: e0b6ffbc9770ec9479e14d19935f163b, type: 2}
+  subControllersSettings: []
+  references:
+    version: 2
+    RefIds: []

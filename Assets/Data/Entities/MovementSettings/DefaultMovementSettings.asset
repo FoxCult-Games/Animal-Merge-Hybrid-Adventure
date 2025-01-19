@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 025f6545f13142bb99f6fda7cf664ced, type: 3}
+  m_Name: DefaultMovementSettings
+  m_EditorClassIdentifier: 
+  movementSpeed:
+    min: 60
+    max: 100
+  movementRange:
+    min: 70
+    max: 160
+  rotationChange: 4
+  rotationPerSideDuration: 0.5
+  arrivalDistance: 0.1
+  idleTime:
+    min: 2
+    max: 6
+  scaleModifier: 1.05
+  scaleDuration: 0.5

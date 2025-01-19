@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b541a2a063f74ff98834dfde271438b1, type: 3}
+  m_Name: CrocCrab
+  m_EditorClassIdentifier: 
+  serializedGuid: 7ebd2ebff921b0348be9d9b6d3fecbf4
+  entityName: CrocCrab
+  entitySprite: {fileID: 21300000, guid: 1d23653079bd5bc439620b92c68abd86, type: 3}
+  entityType: 1
+  entityTier: 2
+  prefab: {fileID: 8795484222758177269, guid: f3d909c846e58eb4aa5cf67294e223c5, type: 3}
+  requiredEntitySettings:
+  - {fileID: 11400000, guid: dbed9ee317788dd4ea7be6db98a4c1e8, type: 2}
+  - {fileID: 11400000, guid: 861b7a420832a1e44a268523171dc0a0, type: 2}
+  price:
+    currency: 0
+    amount: 0
+  sellPrice:
+    currency: 0
+    amount: 10
+  speciesSettings: {fileID: 0}
+  entityMovementSettings: {fileID: 11400000, guid: e0b6ffbc9770ec9479e14d19935f163b, type: 2}
+  subControllersSettings: []
+  references:
+    version: 2
+    RefIds: []

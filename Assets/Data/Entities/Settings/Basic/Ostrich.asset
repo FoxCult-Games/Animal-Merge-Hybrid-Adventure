@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b541a2a063f74ff98834dfde271438b1, type: 3}
+  m_Name: Ostrich
+  m_EditorClassIdentifier: 
+  serializedGuid: 18122415902b9914b9126c36c1a332a6
+  entityName: Ostrich
+  entitySprite: {fileID: 21300000, guid: 565e45916dd70154aad6bb6313404989, type: 3}
+  entityType: 0
+  entityTier: 0
+  prefab: {fileID: 728425751423605100, guid: af29c36cc0fc2e54f847bf183f0995cf, type: 3}
+  requiredEntitySettings:
+  - {fileID: 0}
+  - {fileID: 0}
+  price:
+    currency: 0
+    amount: 500
+  sellPrice:
+    currency: 0
+    amount: 10
+  speciesSettings: {fileID: 0}
+  entityMovementSettings: {fileID: 11400000, guid: e0b6ffbc9770ec9479e14d19935f163b, type: 2}
+  subControllersSettings: []
+  references:
+    version: 2
+    RefIds: []

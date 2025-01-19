@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b899bc3cc4248ef8381ba23b8ecc8b6, type: 3}
+  m_Name: CopperChest
+  m_EditorClassIdentifier: 
+  serializedGuid: 6e5fa4b878000854d85391914cbcca00
+  icon: {fileID: 21300000, guid: 4f83c7b16273d724cafafa0b5e21d82c, type: 3}
+  resolver:
+    rid: 5964953486376304644
+  openedIcon: {fileID: 21300000, guid: 4f83c7b16273d724cafafa0b5e21d82c, type: 3}
+  currencyType: 0
+  price: 5
+  canBeBought: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 5964953486376304644
+      type: {class: EntityLootResolver, ns: FoxCultGames.Gameplay.Loot.Resolvers, asm: Assembly-CSharp}
+      data:
+        entries:
+        - tier: 0
+          chance: 1
+        - tier: 1
+          chance: 0.2

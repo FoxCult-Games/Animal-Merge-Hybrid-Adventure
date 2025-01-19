@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b541a2a063f74ff98834dfde271438b1, type: 3}
+  m_Name: LionTurtle
+  m_EditorClassIdentifier: 
+  serializedGuid: 71d993e4a614c794486e1eb7e31dea6d
+  entityName: LionTurtle
+  entitySprite: {fileID: 21300000, guid: 1668e576eb0723f4e8a5f889ff01717e, type: 3}
+  entityType: 1
+  entityTier: 2
+  prefab: {fileID: 5293318054841030708, guid: 1a37209613be6c143982be1712da5760, type: 3}
+  requiredEntitySettings:
+  - {fileID: 11400000, guid: 09f22e994b3323740af3930870c14315, type: 2}
+  - {fileID: 11400000, guid: 6cda787b8651b45428cf3fe13a19d260, type: 2}
+  price:
+    currency: 0
+    amount: 0
+  sellPrice:
+    currency: 0
+    amount: 10
+  speciesSettings: {fileID: 0}
+  entityMovementSettings: {fileID: 11400000, guid: e0b6ffbc9770ec9479e14d19935f163b, type: 2}
+  subControllersSettings: []
+  references:
+    version: 2
+    RefIds: []

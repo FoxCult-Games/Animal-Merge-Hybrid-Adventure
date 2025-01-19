@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b541a2a063f74ff98834dfde271438b1, type: 3}
+  m_Name: CockLion
+  m_EditorClassIdentifier: 
+  serializedGuid: 644c978c1be85994ab34759268634cc2
+  entityName: CockLion
+  entitySprite: {fileID: 21300000, guid: 96150385d214e844da154ca322fbdf48, type: 3}
+  entityType: 1
+  entityTier: 3
+  prefab: {fileID: 3303726817953399845, guid: 27811e4114db3ba48a889d5e184b9f7b, type: 3}
+  requiredEntitySettings:
+  - {fileID: 11400000, guid: 6955b5beb507b634cb1fe18dda19962c, type: 2}
+  - {fileID: 11400000, guid: 09f22e994b3323740af3930870c14315, type: 2}
+  price:
+    currency: 0
+    amount: 0
+  sellPrice:
+    currency: 0
+    amount: 10
+  speciesSettings: {fileID: 0}
+  entityMovementSettings: {fileID: 11400000, guid: e0b6ffbc9770ec9479e14d19935f163b, type: 2}
+  subControllersSettings: []
+  references:
+    version: 2
+    RefIds: []
